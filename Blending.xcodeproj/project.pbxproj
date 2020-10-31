@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4646C3AB254CA10700F490B4 /* BlendingArticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendingArticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4646C3AB254CA10700F490B4 /* Blending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4646C3AE254CA10700F490B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4646C3B2254CA10700F490B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4646C3B7254CA10900F490B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		4646C3A2254CA10700F490B4 = {
 			isa = PBXGroup;
 			children = (
-				4646C3AD254CA10700F490B4 /* BlendingArticle */,
+				4646C3AD254CA10700F490B4 /* Blending */,
 				4646C3AC254CA10700F490B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,12 +64,12 @@
 		4646C3AC254CA10700F490B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4646C3AB254CA10700F490B4 /* BlendingArticle.app */,
+				4646C3AB254CA10700F490B4 /* Blending.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4646C3AD254CA10700F490B4 /* BlendingArticle */ = {
+		4646C3AD254CA10700F490B4 /* Blending */ = {
 			isa = PBXGroup;
 			children = (
 				4646C3D1254CA1C300F490B4 /* Compositing */,
@@ -84,7 +84,7 @@
 				4646C3B9254CA10900F490B4 /* LaunchScreen.storyboard */,
 				4646C3BC254CA10900F490B4 /* Info.plist */,
 			);
-			path = BlendingArticle;
+			path = Blending;
 			sourceTree = "<group>";
 		};
 		4646C3C5254CA15900F490B4 /* BlendMode */ = {
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4646C3AA254CA10700F490B4 /* BlendingArticle */ = {
+		4646C3AA254CA10700F490B4 /* Blending */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4646C3BF254CA10900F490B4 /* Build configuration list for PBXNativeTarget "BlendingArticle" */;
+			buildConfigurationList = 4646C3BF254CA10900F490B4 /* Build configuration list for PBXNativeTarget "Blending" */;
 			buildPhases = (
 				4646C3A7254CA10700F490B4 /* Sources */,
 				4646C3A8254CA10700F490B4 /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = BlendingArticle;
+			name = Blending;
 			productName = BlendingArticle;
-			productReference = 4646C3AB254CA10700F490B4 /* BlendingArticle.app */;
+			productReference = 4646C3AB254CA10700F490B4 /* Blending.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4646C3A6254CA10700F490B4 /* Build configuration list for PBXProject "BlendingArticle" */;
+			buildConfigurationList = 4646C3A6254CA10700F490B4 /* Build configuration list for PBXProject "Blending" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -154,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4646C3AA254CA10700F490B4 /* BlendingArticle */,
+				4646C3AA254CA10700F490B4 /* Blending */,
 			);
 		};
 /* End PBXProject section */
@@ -327,12 +327,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BlendingArticle/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "$(SRCROOT)/Blending/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.homiedev.BlendingArticle;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.homiedev.Blending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,12 +347,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BlendingArticle/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "$(SRCROOT)/Blending/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.homiedev.BlendingArticle;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.homiedev.Blending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4646C3A6254CA10700F490B4 /* Build configuration list for PBXProject "BlendingArticle" */ = {
+		4646C3A6254CA10700F490B4 /* Build configuration list for PBXProject "Blending" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4646C3BD254CA10900F490B4 /* Debug */,
@@ -369,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4646C3BF254CA10900F490B4 /* Build configuration list for PBXNativeTarget "BlendingArticle" */ = {
+		4646C3BF254CA10900F490B4 /* Build configuration list for PBXNativeTarget "Blending" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4646C3C0254CA10900F490B4 /* Debug */,
